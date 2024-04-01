@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+ 
+<meta charset="UTF-8">
+
+ <meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+
+ <title>Water Park</title>
+
+ <style>
+
+ 
+ body
+ {
+
+ font-family: Arial, sans-serif;
+ 
+margin: 0;
+ padding: 0;
+ 
+}
+
+ header 
+{
+
+ background-color: #fee;
+
+ color: black;
+
+ padding: 20px;
+
+ text-align: center;
+
+ }
+
+ nav
+ {
+ 
+background-color: #fee;
+
+ text-align: center;
+
+ padding: 10px;
+ 
+}
+ 
+nav a 
+{
+ 
+color: white;
+
+ text-decoration: none;
+
+ margin: 0 10px;
+ 
+}
+ 
+nav a:hover {
+
+ text-decoration: underline;
+
+ }
+ 
+section
+ {
+ 
+padding: 20px;
+
+ }
+
+ footer
+ {
+
+ background-color: #333;
+
+ color: white;
+ 
+text-align: center;
+ 
+padding: 10px;
+
+ position: fixed;
+
+ bottom: 0;
+
+ width: 100%;
+
+}
+.container
+ {
+ 
+max-width: 600px;
+ 
+margin: 0 auto;
+
+ padding: 50px 20px;
+
+ text-align: center;
+ 
+}
+ 
+h1 
+{
+ margin-bottom: 20px;
+ 
+}
+ form
+{
+ 
+display: none;
+
+ margin-top: 20px;
+ 
+}
+ 
+form.visible {
+
+ display: block;
+
+ }
+ input[type="text"],
+ input[type="email"], 
+input[type="date"] 
+{
+ 
+width: 100%;
+ 
+padding: 10px;
+
+ margin: 10px 0;
+ 
+box-sizing: border-box;
+
+}
+ .book-button
+ {
+
+ background-color: #FF0000;
+
+ color: white;
+
+ border: none;
+ 
+padding: 15px 30px;
+ 
+text-align: center;
+
+ text-decoration: none;
+ 
+display: inline-block;
+ 
+font-size: 16px;
+
+ margin-top: 10px;
+
+ cursor: pointer;
+
+ border-radius: 5px;
+
+ }
+ .book-button:hover 
+{
+
+ background-color: #9ACD32;
+
+ }
+
+</style>
+
+<script>
+
+ function toggleForm() 
+{
+
+var form = document.getElementById("booking-form");
+
+form.classList.toggle("visible");
+ 
+}
+
+</script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+ <h1>Book Your Visit</h1>
+
+ <button class="book-button" onclick="toggleForm()">
+Book 
+Now
+</button>
+
+ <form id="booking-form" action="booking_process.php" 
+method="POST">
+
+ <input type="text" name="fullname" placeholder="Your 
+Full Name" required>
+<br>
+ 
+<input type="email" name="email" placeholder="Your 
+Email" required>
+<br>
+
+<label for ="customer-phone">phone number:</lable>
+<br>
+
+ <input type="tel" id="customer-phone" 
+name="customer-phone"pattern=
+<tr>
+
+<td>
+Phone no:
+</td>
+
+<td>
+
+<select>
+
+<option>977</option>
+
+<option>978</option>
+
+<option>979</option>
+
+<option>988</option>
+
+<option>981</option>
+
+<option>982</option>
+
+<option>983</option>
+
+</select>
+
+</td>
+
+<input type="Phone" placeholder="98488** name="">
+
+</tr>
+<br>
+ 
+<input type="submit" value="Submit" 
+class="book-button">
+
+ </form>
+
+</div>
+ 
+
+</head>
+
+<body >
+
+<header>
+
+ 
+<h3>Welcome to Our Water Park</h3>
+
+</header>
+
+<nav>
+
+ <a href="home.html">Home</a>
+
+ <a href="rides.html">Rides</a>
+
+ <a href="restaurant.html">Restaurant</a>
+
+ <a href="Tickets.html">Tickets & Offers</a>
+
+ <a href="contact.html">Contact</a>
+
+ <a href="feedback.html">
+Feedback</a>
+
+</nav>
+
+ 
+<body background="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/b1/b2/6d/a-normal-day-at-wet-n.jpg?w=1200&h=-1&s=1"
+background-repeat:no repeat
+background-attachment:fixed
+background-size:100%>
+
+ <header>
+ 
+
+
+ </header>
+<div>
+ 
+<section id="waterpark">
+
+<link rel="stylesheet" type="text/css" 
+href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel
+/1.8.1/slick.min.css">
+<link rel="stylesheet" type="text/css" 
+href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel
+/1.8.1/slick-theme.min.css">
+
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script 
+src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/
+1.8.1/slick.min.js">
+</script>
+<meta charset="UTF-8">
+ 
+<meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+
+<section id="waterpark">
+
+ <div class="container">
+
+ <h2>Water Park</h2>
+
+ <div class="slider">
+ 
+<div>
+<img src="https://lh3.googleusercontent.com/Mvjidf5nIlcLVE1mfpLmcaJr6fi4dye1fMB22qj9BlkdGf5avmkYhUoIfAx9ifHWYz59tfSTooibmBDiHfms1kkJZUTOUir5WsJewjpSgdnw=s1280" alt="WATER 
+PARK"width="700" height="400">
+</div>
+ 
+<div>
+<img src="https://media.tripinvites.com/places/lonavala/wet-n-joy-water-park/wet-n-joy-big-water-pool.jpg" alt="WATER 
+PARK"width="700" height="400">
+</div>
+
+ <div>
+<img src="https://res.cloudinary.com/chasset/f_webp,e_improve/hbimages/desktop/1501753644928-Wet%20N%20Joy%20Water%20Park.jpg" alt="WATER 
+PARK"width="700" height="400">
+</div>
+
+ <div>
+<img src="https://i.ibb.co/4W7T84r/2017-04-12.jpg" alt="WATER
+PARK"width="700" height="400">
+</div>
+ 
+
+ </div>
+ 
+
+ 
+ </div>
+
+<section>
+
+<script>
+ $(document).ready(function(){
+ $('.slider').slick({
+ autoplay: true,
+ autoplaySpeed: 2000, // Adjust the speed as 
+needed
+ dots: true,
+ arrows: false,
+ infinite: true,
+ speed: 100,
+ fade: true,
+ cssEase: 'linear'
+ });
+ });
+
+</script>
+ 
+
+ </section>
+
+ <h2>Amusement Park<text-align: center>
+</h2>
+ <section id="amusementpark">
+ 
+<div class="container">
+
+ 
+<div class="slider">
+
+ <div>
+<img src="https://media.assettype.com/outlooktraveller/2023-09/2481cd27-939e-4686-a995-e613ba3b7efe/shutterstock_1378533041.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true" alt="Amusement
+PARK"width="700" height="400">
+</div>
+
+ <div>
+<img src="https://images.unsplash.com/photo-1513889961551-628c1e5e2ee9?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW11c2VtZW50JTIwcGFya3xlbnwwfHwwfHx8MA%3D%3D" alt="Amusement
+PARK"width="700" height="400">
+</div>
+  
+<div>
+<img src="https://images.freeimages.com/images/large-previews/8a6/playcenter-1437313.jpg?fmt=webp&w=500" alt="Amusement 
+PARK"width="700" height="400">
+</div>
+
+ <div>
+<img src="https://www.zarla.com/images/zarla-amusement-park-logos-4032x3024-2021071.jpeg?crop=16:9,smart&width=1200&dpr=2" alt="Amusement
+PARK"width="700" height="400">
+</div>
+
+</div>
+
+ 
+ 
+ </div>
+
+<section>
+
+<script>
+ 
+$(document).ready(function(){
+ $('.slider').slick({
+ autoplay: true,
+ autoplaySpeed: 2000, // Adjust the speed as 
+needed
+ dots: true,
+ arrows: false,
+ infinite: true,
+ speed: 100,
+ fade: true,
+ cssEase: 'linear'
+ });
+ });
+
+</script>
+
+
+ <p>Enjoy the excitement of our amusement 
+rides!</p>
+
+ <!-- Add amusement park specific content here 
+-->
+ 
+</div>
+
+ </section>
+
+
+</body>
+
+
+<section id="tickets & offers">
+
+<body>
+ 
+ <table border="0" width="100%" height="100px">
+ 
+<!----Row1----> 
+<tr>
+ 
+<th>
+ 
+<font face="Monoton">
+ SlashWave.in </font>
+ 
+</th>
+ 
+<th>
+</th> 
+<th>
+</th>
+ 
+<br>
+ 
+</tr>
+ 
+<!----Row2---->
+
+
+
+</body>
+
+</html>
